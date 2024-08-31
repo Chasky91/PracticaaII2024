@@ -14,13 +14,17 @@ function  saludarV1() {
     //el retunr devuelve  algun valor de una funcion, siempre devuelve solo una varaible 
     console.log( `Hola ${ nombreCompleto} Funcion tipo 1`)
     console.log("Hola ", nombreCompleto2, " funcion tipo 1")
+
+   
 } 
-console.log(saludarACliente())
+//console.log(saludarACliente())
 
 //function V2
 const saludarV2 = () => {
     let nombreCompleto = `${cliente.name} ${cliente.appellido}`
     return `Hola ${ nombreCompleto} V2`
 }
+
+console.log(saludarV2())
 
 
