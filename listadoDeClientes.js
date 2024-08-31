@@ -3,17 +3,25 @@ const listaClientes = {
       {
         "nombre": "Carlos García",
         "correo": "carlos.garcia@example.com",
-        "telefono": "555-1234",
+        "telefono": 5551234,
         "pedidos": [
-          {"producto": "Café Americano", "cantidad": 1, "precio": 2.50},
-          {"producto": "Muffin de Arándanos", "cantidad": 2, "precio": 3.00}
+            {
+                "producto": "Café Americano",
+                "cantidad": 1, 
+                "precio": 2.50
+            },
+            {
+                "producto": "Muffin de Arándanos",
+                "cantidad": 2,
+                "precio": 3.00
+            }
         ],
         "miembro": true
       },
       {
         "nombre": "María López",
         "correo": "maria.lopez@example.com",
-        "telefono": "555-5678",
+        "telefono": 5555678,
         "pedidos": [
           {"producto": "Café Latte", "cantidad": 1, "precio": 3.50},
           {"producto": "Croissant", "cantidad": 1, "precio": 2.00}
@@ -55,3 +63,4 @@ const listaClientes = {
   
 
 export default listaClientes
+
