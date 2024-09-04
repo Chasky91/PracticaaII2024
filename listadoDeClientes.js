@@ -1,5 +1,5 @@
 const listaClientes = {
-    "clientes": [
+    "customers": [
       {
         "nombre": "Carlos García",
         "correo": "carlos.garcia@example.com",
