@@ -25,6 +25,6 @@ const titulo = "Tecnico Superior en Infraestrucura"
 
 console.log(titulo)
 
-//titulo = "TEcnico Superior en Analisis"
-
+// si intentamos modificar una variable definida  con const se nos arrojara un error.
+titulo = "TEcnico Superior en Analisis"
 console.log(titulo)

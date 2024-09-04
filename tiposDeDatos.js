@@ -11,7 +11,8 @@ let divorciado = true
 let saldoCajaDeAhorro 
 
 // Nulo (Null)
-let titulo = null 
+let titulo = null
+ 
 //console.log(saldoCajaDeAhorro)
 
 

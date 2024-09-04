@@ -17,6 +17,8 @@ function  saludarV1() {
 
    
 } 
+
+//imprime la funcion V1 en la terminal
 //console.log(saludarACliente())
 
 //function V2
@@ -25,6 +27,7 @@ const saludarV2 = () => {
     return `Hola ${ nombreCompleto} V2`
 }
 
+//imprime la funcion V2 en la terminal
 console.log(saludarV2())
 
 

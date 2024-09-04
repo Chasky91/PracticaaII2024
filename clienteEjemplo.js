@@ -1,4 +1,5 @@
 const listadoDeClientes = {
+
     "clientes": [
         {
             "nombre":"Carlos Garcia",
@@ -25,4 +26,3 @@ const listadoDeClientes = {
     ]
 }
 
-[1.5, 2]

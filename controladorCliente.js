@@ -1,12 +1,12 @@
-import listaClientes from "./listadoDeClientes.js";
-//import express from 'express/promises.js'
+import listaClientes from "./listadoDeClientes.js"; //importa  la variable listaClientes del archivo listadoDeClientes.js
 
 function conexionDBClientes(param1) {
-    //limpia los datos
+    //limpia los datos tomandolos aparti de la clave customes
     let clientes = param1.customers
     return clientes
 }
 
+//funcion que imprimira los nombres de los clientes  atraves de un for
 function verClientes() {
 
     let arrayClientes = conexionDBClientes(listaClientes)
@@ -18,6 +18,8 @@ function verClientes() {
     }
 }
 
+
+//llamamos a la funcion para que sea impresa en la terminal
 console.log(
     verClientes()
 )
